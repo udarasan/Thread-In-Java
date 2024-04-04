@@ -35,14 +35,17 @@ public class JavaThread {
         One obj1=new One();
         Two obj2=new Two();
 
+        Thread t1=new Thread();
+        Thread t2=new Thread();
+
         //runnable interface don't have start method
-        obj1.start();
+        t1.start();
         try {
             Thread.sleep(10);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-        obj2.start();
+        t2.start();
 
 
 

@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15321562-4da8-4e3f-aa7a-50bb265c8a61" name="Changes" comment="step 6 - fix synchronized issue">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Implement-Runnable-Interface/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Implement-Runnable-Interface/src/main/java/org/example/JavaThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="15321562-4da8-4e3f-aa7a-50bb265c8a61" name="Changes" comment="step 1 - implements from runnable interface">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Implement-Runnable-Interface/src/main/java/org/example/JavaThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/Implement-Runnable-Interface/src/main/java/org/example/JavaThread.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +50,33 @@
       <recent name="$PROJECT_DIR$/Extend-Thread-Class/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.JavaThread (2)">
+    <configuration name="JavaThread (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.JavaThread" />
+      <module name="Implement-Runnable-Interface" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaThread (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.JavaThread" />
+      <module name="Implement-Runnable-Interface" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JavaThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.JavaThread" />
       <module name="Extend-Thread-Class" />
@@ -69,6 +92,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JavaThread (2)" />
+        <item itemvalue="Application.JavaThread (1)" />
         <item itemvalue="Application.JavaThread" />
       </list>
     </recent_temporary>
@@ -81,7 +106,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712241188089</updated>
-      <workItem from="1712241189288" duration="1366000" />
+      <workItem from="1712241189288" duration="2006000" />
     </task>
     <task id="LOCAL-00001" summary="step 1 - main thread workflow">
       <created>1712241322965</created>
@@ -118,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712241945968</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="step 1 - implements from runnable interface">
+      <created>1712242778687</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712242778687</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +173,7 @@
     <MESSAGE value="step 3 - if we want to run parallel we need to class extend form Thread Class" />
     <MESSAGE value="step 4 - when we call start method its automatically called run metho…&#10;…d internally. In Java, the run() method is a method defined within the Runnable interface. It represents the entry point of a thread's execution when that thread is started." />
     <MESSAGE value="step 6 - fix synchronized issue" />
-    <option name="LAST_COMMIT_MESSAGE" value="step 6 - fix synchronized issue" />
+    <MESSAGE value="step 1 - implements from runnable interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="step 1 - implements from runnable interface" />
   </component>
 </project>
