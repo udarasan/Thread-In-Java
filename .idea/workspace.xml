@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15321562-4da8-4e3f-aa7a-50bb265c8a61" name="Changes" comment="step 2 - suspend thread">
+    <list default="true" id="15321562-4da8-4e3f-aa7a-50bb265c8a61" name="Changes" comment="step 4 - when we call start method its automatically called run metho…&#10;…d internally. In Java, the run() method is a method defined within the Runnable interface. It represents the entry point of a thread's execution when that thread is started.">
       <change beforePath="$PROJECT_DIR$/Extend-Thread-Class/src/main/java/org/example/JavaThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/Extend-Thread-Class/src/main/java/org/example/JavaThread.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712241188089</updated>
-      <workItem from="1712241189288" duration="324000" />
+      <workItem from="1712241189288" duration="645000" />
     </task>
     <task id="LOCAL-00001" summary="step 1 - main thread workflow">
       <created>1712241322965</created>
@@ -91,15 +91,42 @@
       <option name="project" value="LOCAL" />
       <updated>1712241396300</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="step 3 - if we want to run parallel we need to class extend form Thread Class">
+      <created>1712241549829</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712241549829</updated>
+    </task>
+    <task id="LOCAL-00004" summary="step 4 - when we call start method its automatically called run metho…&#10;…d internally. In Java, the run() method is a method defined within the Runnable interface. It represents the entry point of a thread's execution when that thread is started.">
+      <created>1712241796536</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712241796536</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="step 1 - main thread workflow" />
     <MESSAGE value="step 2 - suspend thread" />
-    <option name="LAST_COMMIT_MESSAGE" value="step 2 - suspend thread" />
+    <MESSAGE value="step 3 - if we want to run parallel we need to class extend form Thread Class" />
+    <MESSAGE value="step 4 - when we call start method its automatically called run metho…&#10;…d internally. In Java, the run() method is a method defined within the Runnable interface. It represents the entry point of a thread's execution when that thread is started." />
+    <option name="LAST_COMMIT_MESSAGE" value="step 4 - when we call start method its automatically called run metho…&#10;…d internally. In Java, the run() method is a method defined within the Runnable interface. It represents the entry point of a thread's execution when that thread is started." />
   </component>
 </project>

@@ -37,6 +37,11 @@ public class JavaThread {
 
         //start method came after the extending class form thread class
         obj1.start();
+        try {
+            Thread.sleep(10);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
         obj2.start();
 
 
