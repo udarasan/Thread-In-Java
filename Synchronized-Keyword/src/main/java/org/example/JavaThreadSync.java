@@ -16,6 +16,7 @@ public class JavaThreadSync {
 
         Calculation c=new Calculation();
         c.increment();
+        c.increment();
         System.out.println("COUNT : "+c.num);
     }
 }
