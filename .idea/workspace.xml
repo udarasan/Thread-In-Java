@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15321562-4da8-4e3f-aa7a-50bb265c8a61" name="Changes" comment="step 4 - thread running status check" />
+    <list default="true" id="15321562-4da8-4e3f-aa7a-50bb265c8a61" name="Changes" comment="step 1 - initial setup">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thread-Priority/src/main/java/org/example/JavaThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/Thread-Priority/src/main/java/org/example/JavaThread.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +54,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JavaThread (3)">
+  <component name="RunManager" selected="Application.JavaThread (4)">
     <configuration name="JavaThread (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.JavaThread" />
       <module name="Implement-Runnable-Interface" />
@@ -91,6 +94,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JavaThread (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.JavaThread" />
+      <module name="Thread-Priority" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JavaThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.JavaThread" />
       <module name="Extend-Thread-Class" />
@@ -106,6 +122,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JavaThread (4)" />
         <item itemvalue="Application.JavaThread (3)" />
         <item itemvalue="Application.JavaThread (1)" />
         <item itemvalue="Application.JavaThread (2)" />
@@ -121,7 +138,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712241188089</updated>
-      <workItem from="1712241189288" duration="5053000" />
+      <workItem from="1712241189288" duration="5384000" />
     </task>
     <task id="LOCAL-00001" summary="step 1 - main thread workflow">
       <created>1712241322965</created>
@@ -270,7 +287,21 @@
       <option name="project" value="LOCAL" />
       <updated>1712246252384</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="step 4 - thread running status check">
+      <created>1712246303370</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1712246303370</updated>
+    </task>
+    <task id="LOCAL-00023" summary="step 1 - initial setup">
+      <created>1712246494606</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1712246494606</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,10 +334,10 @@
     <MESSAGE value="step 2 - use anonymous runnable" />
     <MESSAGE value="step 3 - runnable is a functional interface which mean we can use lambda expression" />
     <MESSAGE value="step 4 - obj1 / obj2 is not necessary so we can use direct lambda expression within thread object" />
-    <MESSAGE value="step 1 - initial setup" />
     <MESSAGE value="step 2 - main thread think his job is printing &quot;bye&quot;" />
     <MESSAGE value="step 3 - wait until completion of t1 and t 2 thread's jobs" />
     <MESSAGE value="step 4 - thread running status check" />
-    <option name="LAST_COMMIT_MESSAGE" value="step 4 - thread running status check" />
+    <MESSAGE value="step 1 - initial setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="step 1 - initial setup" />
   </component>
 </project>
