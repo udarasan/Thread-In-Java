@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15321562-4da8-4e3f-aa7a-50bb265c8a61" name="Changes" comment="step 3 - set thread name">
+    <list default="true" id="15321562-4da8-4e3f-aa7a-50bb265c8a61" name="Changes" comment="step 6 - set thread priority using expression">
       <change beforePath="$PROJECT_DIR$/Thread-Priority/src/main/java/org/example/JavaThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/Thread-Priority/src/main/java/org/example/JavaThread.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -137,7 +137,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712241188089</updated>
-      <workItem from="1712241189288" duration="5721000" />
+      <workItem from="1712241189288" duration="6067000" />
     </task>
     <task id="LOCAL-00001" summary="step 1 - main thread workflow">
       <created>1712241322965</created>
@@ -314,7 +314,35 @@
       <option name="project" value="LOCAL" />
       <updated>1712246712095</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="step 4 - set thread name using constructor">
+      <created>1712246960272</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1712246960272</updated>
+    </task>
+    <task id="LOCAL-00027" summary="step 5 - get default priority">
+      <created>1712247051297</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1712247051297</updated>
+    </task>
+    <task id="LOCAL-00028" summary="step 6 - set thread priority">
+      <created>1712247132613</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1712247132613</updated>
+    </task>
+    <task id="LOCAL-00029" summary="step 6 - set thread priority using expression">
+      <created>1712247206418</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1712247206418</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,6 +381,10 @@
     <MESSAGE value="step 1 - initial setup" />
     <MESSAGE value="step 2 - get thread name" />
     <MESSAGE value="step 3 - set thread name" />
-    <option name="LAST_COMMIT_MESSAGE" value="step 3 - set thread name" />
+    <MESSAGE value="step 4 - set thread name using constructor" />
+    <MESSAGE value="step 5 - get default priority" />
+    <MESSAGE value="step 6 - set thread priority" />
+    <MESSAGE value="step 6 - set thread priority using expression" />
+    <option name="LAST_COMMIT_MESSAGE" value="step 6 - set thread priority using expression" />
   </component>
 </project>

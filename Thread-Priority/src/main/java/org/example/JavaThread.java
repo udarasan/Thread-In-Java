@@ -10,7 +10,7 @@ public class JavaThread {
 
         Thread t1=new Thread(() -> {
             for (int i=1;i<=5;i++) {
-                System.out.println("Thread One");
+                System.out.println("Thread One : " +Thread.currentThread().getPriority());
                 try {
                     Thread.sleep(500);
                 } catch (InterruptedException e) {
@@ -20,7 +20,7 @@ public class JavaThread {
         });
         Thread t2=new Thread(() -> {
             for (int i=1;i<=5;i++) {
-                System.out.println("Thread Two");
+                System.out.println("Thread Two : " +Thread.currentThread().getPriority());
                 try {
                     Thread.sleep(500);
                 } catch (InterruptedException e) {
