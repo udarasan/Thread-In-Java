@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15321562-4da8-4e3f-aa7a-50bb265c8a61" name="Changes" comment="step 2 - use two times">
+    <list default="true" id="15321562-4da8-4e3f-aa7a-50bb265c8a61" name="Changes" comment="step 4 - need to add join method to wait main thread">
       <change beforePath="$PROJECT_DIR$/Synchronized-Keyword/src/main/java/org/example/JavaThreadSync.java" beforeDir="false" afterPath="$PROJECT_DIR$/Synchronized-Keyword/src/main/java/org/example/JavaThreadSync.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +53,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JavaThreadSync">
+  <component name="RunManager" selected="Application.JavaThreadSync (4)">
     <configuration name="JavaThread (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.JavaThread" />
       <module name="Implement-Runnable-Interface" />
@@ -145,7 +145,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaThreadSync" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="JavaThreadSync (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.JavaThreadSync" />
       <module name="Synchronized-Keyword" />
       <extension name="coverage">
@@ -160,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JavaThreadSync" />
         <item itemvalue="Application.JavaThreadSync (4)" />
         <item itemvalue="Application.JavaThreadSync (3)" />
         <item itemvalue="Application.JavaThreadSync (2)" />
         <item itemvalue="Application.JavaThreadSync (1)" />
+        <item itemvalue="Application.JavaThreadSync (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +176,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712241188089</updated>
-      <workItem from="1712241189288" duration="6751000" />
+      <workItem from="1712241189288" duration="7070000" />
     </task>
     <task id="LOCAL-00001" summary="step 1 - main thread workflow">
       <created>1712241322965</created>
@@ -402,7 +402,28 @@
       <option name="project" value="LOCAL" />
       <updated>1712247858456</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="step 3 - need to start thread">
+      <created>1712248170132</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1712248170132</updated>
+    </task>
+    <task id="LOCAL-00034" summary="step 4 - need to add join method to wait main thread">
+      <created>1712248221357</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1712248221357</updated>
+    </task>
+    <task id="LOCAL-00035" summary="step 4 - need to add join method to wait main thread">
+      <created>1712248227520</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1712248227520</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -420,8 +441,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="step 3 - if we want to run parallel we need to class extend form Thread Class" />
-    <MESSAGE value="step 4 - when we call start method its automatically called run metho…&#10;…d internally. In Java, the run() method is a method defined within the Runnable interface. It represents the entry point of a thread's execution when that thread is started." />
     <MESSAGE value="step 6 - fix synchronized issue" />
     <MESSAGE value="step 1 - implements from runnable interface" />
     <MESSAGE value="step 2 - when we called start method nothing happened it cuz its call run method inside the newly created thread" />
@@ -445,6 +464,8 @@
     <MESSAGE value="step 7 - print current thread priority" />
     <MESSAGE value="step 1 - initial setup" />
     <MESSAGE value="step 2 - use two times" />
-    <option name="LAST_COMMIT_MESSAGE" value="step 2 - use two times" />
+    <MESSAGE value="step 3 - need to start thread" />
+    <MESSAGE value="step 4 - need to add join method to wait main thread" />
+    <option name="LAST_COMMIT_MESSAGE" value="step 4 - need to add join method to wait main thread" />
   </component>
 </project>
