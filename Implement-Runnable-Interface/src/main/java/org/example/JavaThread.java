@@ -35,8 +35,8 @@ public class JavaThread {
         One obj1=new One();
         Two obj2=new Two();
 
-        Thread t1=new Thread();
-        Thread t2=new Thread();
+        Thread t1=new Thread(obj1);
+        Thread t2=new Thread(obj2);
 
         //runnable interface don't have start method
         t1.start();

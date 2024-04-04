@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15321562-4da8-4e3f-aa7a-50bb265c8a61" name="Changes" comment="step 1 - implements from runnable interface">
+    <list default="true" id="15321562-4da8-4e3f-aa7a-50bb265c8a61" name="Changes" comment="step 2 - when we called start method nothing happened it cuz its call run method inside the newly created thread">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Implement-Runnable-Interface/src/main/java/org/example/JavaThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/Implement-Runnable-Interface/src/main/java/org/example/JavaThread.java" afterDir="false" />
     </list>
@@ -50,7 +50,7 @@
       <recent name="$PROJECT_DIR$/Extend-Thread-Class/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JavaThread (2)">
+  <component name="RunManager" selected="Application.JavaThread (1)">
     <configuration name="JavaThread (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.JavaThread" />
       <module name="Implement-Runnable-Interface" />
@@ -92,8 +92,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JavaThread (2)" />
         <item itemvalue="Application.JavaThread (1)" />
+        <item itemvalue="Application.JavaThread (2)" />
         <item itemvalue="Application.JavaThread" />
       </list>
     </recent_temporary>
@@ -106,7 +106,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712241188089</updated>
-      <workItem from="1712241189288" duration="2006000" />
+      <workItem from="1712241189288" duration="2729000" />
     </task>
     <task id="LOCAL-00001" summary="step 1 - main thread workflow">
       <created>1712241322965</created>
@@ -150,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712242778687</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="step 2 - when we called start method nothing happened it cuz its call run method inside the newly created thread">
+      <created>1712243459308</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1712243459308</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +181,7 @@
     <MESSAGE value="step 4 - when we call start method its automatically called run metho…&#10;…d internally. In Java, the run() method is a method defined within the Runnable interface. It represents the entry point of a thread's execution when that thread is started." />
     <MESSAGE value="step 6 - fix synchronized issue" />
     <MESSAGE value="step 1 - implements from runnable interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="step 1 - implements from runnable interface" />
+    <MESSAGE value="step 2 - when we called start method nothing happened it cuz its call run method inside the newly created thread" />
+    <option name="LAST_COMMIT_MESSAGE" value="step 2 - when we called start method nothing happened it cuz its call run method inside the newly created thread" />
   </component>
 </project>
