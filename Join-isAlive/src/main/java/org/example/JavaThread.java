@@ -39,6 +39,8 @@ public class JavaThread {
         t2.start();
 
 
+        //main thread print this line
+        System.out.println("Bye");
 
 
     }
