@@ -6,7 +6,7 @@ package org.example;
  * @Author $USER
  */
 class One extends Thread{
-    public void whichThread(){
+    public void run(){
         for (int i=1;i<=5;i++) {
             System.out.println("Thread One");
             try {
@@ -18,7 +18,7 @@ class One extends Thread{
     }
 }
 class Two extends Thread{
-    public void whichThread(){
+    public void run(){
         for (int i=1;i<=5;i++) {
             System.out.println("Thread Two");
             try {
@@ -39,8 +39,6 @@ public class JavaThread {
         obj1.start();
         obj2.start();
 
-        obj1.whichThread();
-        obj2.whichThread();
 
 
     }
