@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15321562-4da8-4e3f-aa7a-50bb265c8a61" name="Changes" comment="step 2 - use anonymous runnable">
-      <change beforePath="$PROJECT_DIR$/Lambda-Expression/src/main/java/org/example/JavaThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lambda-Expression/src/main/java/org/example/JavaThread.java" afterDir="false" />
-    </list>
+    <list default="true" id="15321562-4da8-4e3f-aa7a-50bb265c8a61" name="Changes" comment="step 3 - runnable is a functional interface which mean we can use lambda expression" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,7 +104,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712241188089</updated>
-      <workItem from="1712241189288" duration="3425000" />
+      <workItem from="1712241189288" duration="3743000" />
     </task>
     <task id="LOCAL-00001" summary="step 1 - main thread workflow">
       <created>1712241322965</created>
@@ -192,7 +190,35 @@
       <option name="project" value="LOCAL" />
       <updated>1712244575841</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="step 3 - use anonymous runnable">
+      <created>1712244683197</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1712244683197</updated>
+    </task>
+    <task id="LOCAL-00014" summary="step 3 - use anonymous runnable">
+      <created>1712244692788</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1712244692788</updated>
+    </task>
+    <task id="LOCAL-00015" summary="step 2 - use anonymous runnable">
+      <created>1712244712580</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1712244712580</updated>
+    </task>
+    <task id="LOCAL-00016" summary="step 3 - runnable is a functional interface which mean we can use lambda expression">
+      <created>1712244860222</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1712244860222</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,7 +246,11 @@
     <MESSAGE value="step 3 - we have to pass object to thread class. and change Object to super type" />
     <MESSAGE value="step 4 - change to super type" />
     <MESSAGE value="step 1 - initial setup" />
+    <MESSAGE value="step 2 - removing all class and using anonymous class" />
+    <MESSAGE value="step 3 - removing all class and using anonymous class" />
+    <MESSAGE value="step 3 - use anonymous runnable" />
     <MESSAGE value="step 2 - use anonymous runnable" />
-    <option name="LAST_COMMIT_MESSAGE" value="step 2 - use anonymous runnable" />
+    <MESSAGE value="step 3 - runnable is a functional interface which mean we can use lambda expression" />
+    <option name="LAST_COMMIT_MESSAGE" value="step 3 - runnable is a functional interface which mean we can use lambda expression" />
   </component>
 </project>

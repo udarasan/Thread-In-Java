@@ -8,7 +8,7 @@ package org.example;
 public class JavaThread {
     public static void main(String[] args) {
 
-        Runnable obj1= () -> {
+        Thread t1=new Thread(() -> {
             for (int i=1;i<=5;i++) {
                 System.out.println("Thread One");
                 try {
@@ -17,8 +17,8 @@ public class JavaThread {
                     throw new RuntimeException(e);
                 }
             }
-        };
-        Runnable obj2= () -> {
+        });
+        Thread t2=new Thread(() -> {
             for (int i=1;i<=5;i++) {
                 System.out.println("Thread Two");
                 try {
@@ -27,10 +27,7 @@ public class JavaThread {
                     throw new RuntimeException(e);
                 }
             }
-        };
-
-        Thread t1=new Thread(obj1);
-        Thread t2=new Thread(obj2);
+        });
 
         //runnable interface don't have start method
         t1.start();
