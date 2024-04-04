@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15321562-4da8-4e3f-aa7a-50bb265c8a61" name="Changes" comment="step 1 - initial setup">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="15321562-4da8-4e3f-aa7a-50bb265c8a61" name="Changes" comment="step 3 - set thread name">
       <change beforePath="$PROJECT_DIR$/Thread-Priority/src/main/java/org/example/JavaThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/Thread-Priority/src/main/java/org/example/JavaThread.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -138,7 +137,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712241188089</updated>
-      <workItem from="1712241189288" duration="5384000" />
+      <workItem from="1712241189288" duration="5721000" />
     </task>
     <task id="LOCAL-00001" summary="step 1 - main thread workflow">
       <created>1712241322965</created>
@@ -301,7 +300,21 @@
       <option name="project" value="LOCAL" />
       <updated>1712246494606</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="step 2 - get thread name">
+      <created>1712246635397</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1712246635397</updated>
+    </task>
+    <task id="LOCAL-00025" summary="step 3 - set thread name">
+      <created>1712246712095</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1712246712095</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,6 +351,8 @@
     <MESSAGE value="step 3 - wait until completion of t1 and t 2 thread's jobs" />
     <MESSAGE value="step 4 - thread running status check" />
     <MESSAGE value="step 1 - initial setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="step 1 - initial setup" />
+    <MESSAGE value="step 2 - get thread name" />
+    <MESSAGE value="step 3 - set thread name" />
+    <option name="LAST_COMMIT_MESSAGE" value="step 3 - set thread name" />
   </component>
 </project>

@@ -27,11 +27,8 @@ public class JavaThread {
                     throw new RuntimeException(e);
                 }
             }
-        });
+        },"Kasun");
 
-        //set thread name
-        t1.setName("Udara");
-        t2.setName("San");
         System.out.println(t1.getName());
         System.out.println(t2.getName());
 
