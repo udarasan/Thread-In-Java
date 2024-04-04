@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Extend-Thread-Class" />
         <module name="Implement-Runnable-Interface" />
+        <module name="Lambda-Expression" />
       </profile>
     </annotationProcessing>
   </component>

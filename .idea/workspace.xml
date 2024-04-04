@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15321562-4da8-4e3f-aa7a-50bb265c8a61" name="Changes" comment="step 2 - when we called start method nothing happened it cuz its call run method inside the newly created thread">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Implement-Runnable-Interface/src/main/java/org/example/JavaThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/Implement-Runnable-Interface/src/main/java/org/example/JavaThread.java" afterDir="false" />
+    <list default="true" id="15321562-4da8-4e3f-aa7a-50bb265c8a61" name="Changes" comment="step 1 - initial setup">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lambda-Expression/src/main/java/org/example/JavaThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lambda-Expression/src/main/java/org/example/JavaThread.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +38,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "/Users/udarasan/Documents/lectures/Thread-In-Java/Thread-In-Java/Implement-Runnable-Interface/src/main/java/org/example",
+    "last_opened_file_path": "/Users/udarasan/Documents/lectures/Thread-In-Java/Thread-In-Java/Lambda-Expression/src/main/java/org/example",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -46,6 +48,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Lambda-Expression/src/main/java/org/example" />
       <recent name="$PROJECT_DIR$/Implement-Runnable-Interface/src/main/java/org/example" />
       <recent name="$PROJECT_DIR$/Extend-Thread-Class/src/main/java/org/example" />
     </key>
@@ -106,7 +109,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712241188089</updated>
-      <workItem from="1712241189288" duration="2729000" />
+      <workItem from="1712241189288" duration="3109000" />
     </task>
     <task id="LOCAL-00001" summary="step 1 - main thread workflow">
       <created>1712241322965</created>
@@ -157,7 +160,28 @@
       <option name="project" value="LOCAL" />
       <updated>1712243459308</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="step 3 - we have to pass object to thread class. and change Object to super type">
+      <created>1712243993507</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1712243993507</updated>
+    </task>
+    <task id="LOCAL-00009" summary="step 4 - change to super type">
+      <created>1712244058459</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1712244058459</updated>
+    </task>
+    <task id="LOCAL-00010" summary="step 1 - initial setup">
+      <created>1712244216667</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1712244216667</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +206,9 @@
     <MESSAGE value="step 6 - fix synchronized issue" />
     <MESSAGE value="step 1 - implements from runnable interface" />
     <MESSAGE value="step 2 - when we called start method nothing happened it cuz its call run method inside the newly created thread" />
-    <option name="LAST_COMMIT_MESSAGE" value="step 2 - when we called start method nothing happened it cuz its call run method inside the newly created thread" />
+    <MESSAGE value="step 3 - we have to pass object to thread class. and change Object to super type" />
+    <MESSAGE value="step 4 - change to super type" />
+    <MESSAGE value="step 1 - initial setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="step 1 - initial setup" />
   </component>
 </project>
