@@ -38,12 +38,14 @@ public class JavaThread {
         }
         t2.start();
 
+        System.out.println(t1.isAlive());
         // In Java, the join() method is a part of the Thread class. It allows one thread to wait for the completion of
         // another thread. When you call the join() method on a thread, the current thread will pause its execution until
         // the thread it is joining with completes its execution.
 
         t1.join();
         t2.join();
+        System.out.println(t1.isAlive());
 
         //main thread print this line
         System.out.println("Bye");
