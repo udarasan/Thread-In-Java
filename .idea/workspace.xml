@@ -53,7 +53,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JavaThreadSync (4)">
+  <component name="RunManager" selected="Application.JavaThreadSync">
     <configuration name="JavaThread (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.JavaThread" />
       <module name="Implement-Runnable-Interface" />
@@ -160,8 +160,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JavaThreadSync (4)" />
         <item itemvalue="Application.JavaThreadSync" />
+        <item itemvalue="Application.JavaThreadSync (4)" />
         <item itemvalue="Application.JavaThreadSync (3)" />
         <item itemvalue="Application.JavaThreadSync (2)" />
         <item itemvalue="Application.JavaThreadSync (1)" />
