@@ -35,6 +35,10 @@ public class JavaThread {
         One obj1=new One();
         Two obj2=new Two();
 
+        //start method came after the extending class form thread class
+        obj1.start();
+        obj2.start();
+
         obj1.whichThread();
         obj2.whichThread();
 
