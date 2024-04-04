@@ -8,29 +8,23 @@ package org.example;
 public class JavaThread {
     public static void main(String[] args) {
 
-        Runnable obj1=new Runnable() {
-            @Override
-            public void run() {
-                for (int i=1;i<=5;i++) {
-                    System.out.println("Thread One");
-                    try {
-                        Thread.sleep(500);
-                    } catch (InterruptedException e) {
-                        throw new RuntimeException(e);
-                    }
+        Runnable obj1= () -> {
+            for (int i=1;i<=5;i++) {
+                System.out.println("Thread One");
+                try {
+                    Thread.sleep(500);
+                } catch (InterruptedException e) {
+                    throw new RuntimeException(e);
                 }
             }
         };
-        Runnable obj2=new Runnable() {
-            @Override
-            public void run() {
-                for (int i=1;i<=5;i++) {
-                    System.out.println("Thread Two");
-                    try {
-                        Thread.sleep(500);
-                    } catch (InterruptedException e) {
-                        throw new RuntimeException(e);
-                    }
+        Runnable obj2= () -> {
+            for (int i=1;i<=5;i++) {
+                System.out.println("Thread Two");
+                try {
+                    Thread.sleep(500);
+                } catch (InterruptedException e) {
+                    throw new RuntimeException(e);
                 }
             }
         };
