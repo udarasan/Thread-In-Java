@@ -27,10 +27,11 @@ public class JavaThread {
                     throw new RuntimeException(e);
                 }
             }
-        },"Kasun");
+        });
 
-        System.out.println(t1.getName());
-        System.out.println(t2.getName());
+        //get default priority
+        System.out.println(t1.getPriority());
+        System.out.println(t2.getPriority());
 
         t1.start();
         try {
