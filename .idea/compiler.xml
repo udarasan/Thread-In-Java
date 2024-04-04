@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Extend-Thread-Class" />
+        <module name="Implement-Runnable-Interface" />
       </profile>
     </annotationProcessing>
   </component>
