@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15321562-4da8-4e3f-aa7a-50bb265c8a61" name="Changes" comment="step 1 - initial setup">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="15321562-4da8-4e3f-aa7a-50bb265c8a61" name="Changes" comment="step 2 - use anonymous runnable">
       <change beforePath="$PROJECT_DIR$/Lambda-Expression/src/main/java/org/example/JavaThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lambda-Expression/src/main/java/org/example/JavaThread.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,7 +106,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712241188089</updated>
-      <workItem from="1712241189288" duration="3109000" />
+      <workItem from="1712241189288" duration="3425000" />
     </task>
     <task id="LOCAL-00001" summary="step 1 - main thread workflow">
       <created>1712241322965</created>
@@ -181,7 +178,21 @@
       <option name="project" value="LOCAL" />
       <updated>1712244216667</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="step 1 - initial setup">
+      <created>1712244328856</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1712244328856</updated>
+    </task>
+    <task id="LOCAL-00012" summary="step 2 - use anonymous runnable">
+      <created>1712244575841</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1712244575841</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +220,7 @@
     <MESSAGE value="step 3 - we have to pass object to thread class. and change Object to super type" />
     <MESSAGE value="step 4 - change to super type" />
     <MESSAGE value="step 1 - initial setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="step 1 - initial setup" />
+    <MESSAGE value="step 2 - use anonymous runnable" />
+    <option name="LAST_COMMIT_MESSAGE" value="step 2 - use anonymous runnable" />
   </component>
 </project>
