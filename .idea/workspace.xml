@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15321562-4da8-4e3f-aa7a-50bb265c8a61" name="Changes" comment="step 7 - print current thread priority">
-      <change afterPath="$PROJECT_DIR$/Synchronized-Keyword/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Synchronized-Keyword/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="15321562-4da8-4e3f-aa7a-50bb265c8a61" name="Changes" comment="step 2 - use two times">
+      <change beforePath="$PROJECT_DIR$/Synchronized-Keyword/src/main/java/org/example/JavaThreadSync.java" beforeDir="false" afterPath="$PROJECT_DIR$/Synchronized-Keyword/src/main/java/org/example/JavaThreadSync.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +53,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JavaThreadSync (1)">
+  <component name="RunManager" selected="Application.JavaThreadSync (4)">
     <configuration name="JavaThread (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.JavaThread" />
       <module name="Implement-Runnable-Interface" />
@@ -97,46 +93,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.JavaThread" />
-      <module name="Implement-Runnable-Interface" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JavaThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.JavaThread" />
-      <module name="Join-isAlive" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JavaThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.JavaThread" />
-      <module name="Thread-Priority" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="JavaThreadSync (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.JavaThreadSync" />
+      <module name="Synchronized-Keyword" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaThreadSync (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.JavaThreadSync" />
+      <module name="Synchronized-Keyword" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaThreadSync (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.JavaThreadSync" />
+      <module name="Synchronized-Keyword" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaThreadSync (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.JavaThreadSync" />
       <module name="Synchronized-Keyword" />
       <extension name="coverage">
@@ -164,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JavaThreadSync (1)" />
+        <item itemvalue="Application.JavaThreadSync (4)" />
         <item itemvalue="Application.JavaThreadSync" />
-        <item itemvalue="Application.JavaThread (4)" />
-        <item itemvalue="Application.JavaThread (3)" />
-        <item itemvalue="Application.JavaThread (1)" />
+        <item itemvalue="Application.JavaThreadSync (3)" />
+        <item itemvalue="Application.JavaThreadSync (2)" />
+        <item itemvalue="Application.JavaThreadSync (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +176,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712241188089</updated>
-      <workItem from="1712241189288" duration="6440000" />
+      <workItem from="1712241189288" duration="6751000" />
     </task>
     <task id="LOCAL-00001" summary="step 1 - main thread workflow">
       <created>1712241322965</created>
@@ -392,7 +388,21 @@
       <option name="project" value="LOCAL" />
       <updated>1712247306938</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="step 1 - initial setup">
+      <created>1712247827815</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1712247827815</updated>
+    </task>
+    <task id="LOCAL-00032" summary="step 2 - use two times">
+      <created>1712247858456</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1712247858456</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -410,7 +420,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="step 2 - suspend thread" />
     <MESSAGE value="step 3 - if we want to run parallel we need to class extend form Thread Class" />
     <MESSAGE value="step 4 - when we call start method its automatically called run metho…&#10;…d internally. In Java, the run() method is a method defined within the Runnable interface. It represents the entry point of a thread's execution when that thread is started." />
     <MESSAGE value="step 6 - fix synchronized issue" />
@@ -427,7 +436,6 @@
     <MESSAGE value="step 2 - main thread think his job is printing &quot;bye&quot;" />
     <MESSAGE value="step 3 - wait until completion of t1 and t 2 thread's jobs" />
     <MESSAGE value="step 4 - thread running status check" />
-    <MESSAGE value="step 1 - initial setup" />
     <MESSAGE value="step 2 - get thread name" />
     <MESSAGE value="step 3 - set thread name" />
     <MESSAGE value="step 4 - set thread name using constructor" />
@@ -435,6 +443,8 @@
     <MESSAGE value="step 6 - set thread priority" />
     <MESSAGE value="step 6 - set thread priority using expression" />
     <MESSAGE value="step 7 - print current thread priority" />
-    <option name="LAST_COMMIT_MESSAGE" value="step 7 - print current thread priority" />
+    <MESSAGE value="step 1 - initial setup" />
+    <MESSAGE value="step 2 - use two times" />
+    <option name="LAST_COMMIT_MESSAGE" value="step 2 - use two times" />
   </component>
 </project>
