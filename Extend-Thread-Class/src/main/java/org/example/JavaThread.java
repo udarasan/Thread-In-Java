@@ -5,17 +5,27 @@ package org.example;
  * @ProjectDetails $PROJECT_NAME
  * @Author $USER
  */
-class One{
+class One extends Thread{
     public void whichThread(){
         for (int i=1;i<=5;i++) {
             System.out.println("Thread One");
+            try {
+                Thread.sleep(500);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
         }
     }
 }
-class Two{
+class Two extends Thread{
     public void whichThread(){
         for (int i=1;i<=5;i++) {
             System.out.println("Thread Two");
+            try {
+                Thread.sleep(500);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
         }
     }
 }
