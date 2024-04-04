@@ -32,8 +32,8 @@ class Two implements Runnable {
 public class JavaThread {
     public static void main(String[] args) {
 
-        One obj1=new One();
-        Two obj2=new Two();
+        Runnable obj1=new One();
+        Runnable obj2=new Two();
 
         Thread t1=new Thread(obj1);
         Thread t2=new Thread(obj2);
