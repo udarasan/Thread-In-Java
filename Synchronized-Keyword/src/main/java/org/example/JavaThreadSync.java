@@ -12,7 +12,7 @@ class Calculation{
     }
 }
 public class JavaThreadSync {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
         Calculation c=new Calculation();
 
@@ -25,6 +25,7 @@ public class JavaThreadSync {
             }
         });
         t1.start();
+        t1.join();
         System.out.println("COUNT : "+c.num);
     }
 }
