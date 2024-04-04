@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Synchronized-Keyword" />
         <module name="Join-isAlive" />
         <module name="Extend-Thread-Class" />
         <module name="Lambda-Expression" />
