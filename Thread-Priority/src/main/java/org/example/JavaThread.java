@@ -29,7 +29,9 @@ public class JavaThread {
             }
         });
 
-        //get thread name
+        //set thread name
+        t1.setName("Udara");
+        t2.setName("San");
         System.out.println(t1.getName());
         System.out.println(t2.getName());
 
