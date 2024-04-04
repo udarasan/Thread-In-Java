@@ -10,6 +10,7 @@
         <module name="Join-isAlive" />
         <module name="Extend-Thread-Class" />
         <module name="Introduction" />
+        <module name="ThreadStates" />
         <module name="Implement-Runnable-Interface" />
         <module name="Inter-Thread-Commiunication" />
         <module name="Lambda-Expression" />
