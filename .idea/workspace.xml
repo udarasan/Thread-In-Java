@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15321562-4da8-4e3f-aa7a-50bb265c8a61" name="Changes" comment="step 4 - obj1 / obj2 is not necessary so we can use direct lambda expression within thread object">
-      <change afterPath="$PROJECT_DIR$/Join-isAlive/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Join-isAlive/src/main/java/org/example/JavaThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="15321562-4da8-4e3f-aa7a-50bb265c8a61" name="Changes" comment="step 2 - main thread think his job is printing &quot;bye&quot;">
+      <change beforePath="$PROJECT_DIR$/Join-isAlive/src/main/java/org/example/JavaThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/Join-isAlive/src/main/java/org/example/JavaThread.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +123,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712241188089</updated>
-      <workItem from="1712241189288" duration="4437000" />
+      <workItem from="1712241189288" duration="4743000" />
     </task>
     <task id="LOCAL-00001" summary="step 1 - main thread workflow">
       <created>1712241322965</created>
@@ -248,7 +244,21 @@
       <option name="project" value="LOCAL" />
       <updated>1712245028083</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="step 1 - initial setup">
+      <created>1712245703754</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1712245703754</updated>
+    </task>
+    <task id="LOCAL-00019" summary="step 2 - main thread think his job is printing &quot;bye&quot;">
+      <created>1712245782699</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1712245782699</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,13 +285,14 @@
     <MESSAGE value="step 2 - when we called start method nothing happened it cuz its call run method inside the newly created thread" />
     <MESSAGE value="step 3 - we have to pass object to thread class. and change Object to super type" />
     <MESSAGE value="step 4 - change to super type" />
-    <MESSAGE value="step 1 - initial setup" />
     <MESSAGE value="step 2 - removing all class and using anonymous class" />
     <MESSAGE value="step 3 - removing all class and using anonymous class" />
     <MESSAGE value="step 3 - use anonymous runnable" />
     <MESSAGE value="step 2 - use anonymous runnable" />
     <MESSAGE value="step 3 - runnable is a functional interface which mean we can use lambda expression" />
     <MESSAGE value="step 4 - obj1 / obj2 is not necessary so we can use direct lambda expression within thread object" />
-    <option name="LAST_COMMIT_MESSAGE" value="step 4 - obj1 / obj2 is not necessary so we can use direct lambda expression within thread object" />
+    <MESSAGE value="step 1 - initial setup" />
+    <MESSAGE value="step 2 - main thread think his job is printing &quot;bye&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="step 2 - main thread think his job is printing &quot;bye&quot;" />
   </component>
 </project>
