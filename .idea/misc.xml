@@ -10,6 +10,8 @@
         <option value="$PROJECT_DIR$/Join-isAlive/pom.xml" />
         <option value="$PROJECT_DIR$/Thread-Priority/pom.xml" />
         <option value="$PROJECT_DIR$/Synchronized-Keyword/pom.xml" />
+        <option value="$PROJECT_DIR$/Inter-Thread-Commiunication/pom.xml" />
+        <option value="$PROJECT_DIR$/Introduction/pom.xml" />
       </list>
     </option>
   </component>

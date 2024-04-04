@@ -9,9 +9,11 @@
         <module name="Synchronized-Keyword" />
         <module name="Join-isAlive" />
         <module name="Extend-Thread-Class" />
+        <module name="Introduction" />
+        <module name="Implement-Runnable-Interface" />
+        <module name="Inter-Thread-Commiunication" />
         <module name="Lambda-Expression" />
         <module name="Thread-Priority" />
-        <module name="Implement-Runnable-Interface" />
       </profile>
     </annotationProcessing>
   </component>
