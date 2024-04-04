@@ -7,7 +7,7 @@ package org.example;
  */
 class Calculation{
     int num;
-    public void increment(){
+    public synchronized void increment(){
         num++;
     }
 }
