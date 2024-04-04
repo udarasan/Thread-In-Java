@@ -8,7 +8,7 @@ package org.example;
 class A{
     int num;
     boolean value=false;
-    public void put(int num){
+    public synchronized void put(int num){
         while (value){
             try {
                 //pass to wait state
@@ -22,8 +22,8 @@ class A{
         value=true;
         notify();
     }
-    public void get(){
-        while (value){
+    public synchronized void get(){
+        while (!value){
             try {
                 wait();
             } catch (InterruptedException e) {
