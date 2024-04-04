@@ -7,12 +7,32 @@ package org.example;
  */
 class A{
     int num;
+    boolean value=false;
     public void put(int num){
+        while (value){
+            try {
+                //pass to wait state
+                wait();
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+        }
         System.out.println("PUT : " + num);
         this.num=num;
+        value=true;
+        notify();
     }
     public void get(){
+        while (value){
+            try {
+                wait();
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+        }
         System.out.println("GET : " + num);
+        value=false;
+        notify();
     }
 }
 
