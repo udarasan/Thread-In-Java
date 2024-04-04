@@ -29,8 +29,8 @@ public class JavaThread {
             }
         });
 
-        t1.setPriority(1);
-        t2.setPriority(10);
+        t1.setPriority(Thread.MIN_PRIORITY);
+        t2.setPriority(Thread.MAX_PRIORITY);
         //get default priority
         System.out.println(t1.getPriority());
         System.out.println(t2.getPriority());
