@@ -13,6 +13,8 @@
         <option value="$PROJECT_DIR$/Inter-Thread-Commiunication/pom.xml" />
         <option value="$PROJECT_DIR$/Introduction/pom.xml" />
         <option value="$PROJECT_DIR$/ThreadStates/pom.xml" />
+        <option value="$PROJECT_DIR$/Inter-Thread-Commiunication/Thread-Pool/pom.xml" />
+        <option value="$PROJECT_DIR$/Thread-Pool/pom.xml" />
       </list>
     </option>
   </component>
